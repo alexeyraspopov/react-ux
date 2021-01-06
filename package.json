@@ -1,0 +1,49 @@
+{
+  "name": "react-ux",
+  "version": "0.0.1",
+  "description": "",
+  "sideEffects": false,
+  "main": "build/bundle.js",
+  "module": "build/module.js",
+  "files": [
+    "build/*"
+  ],
+  "scripts": {
+    "test": "jest --resetMocks --setupFilesAfterEnv ./jest.setup.js",
+    "build": "rollup --config ./rollup.config.js"
+  },
+  "keywords": [
+    "wai",
+    "aria",
+    "keyboard",
+    "accessibility"
+  ],
+  "author": "Alexey Raspopov",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@rollup/plugin-babel": "^5.2.2",
+    "@rollup/plugin-multi-entry": "^4.0.0",
+    "@testing-library/jest-dom": "^5.11.8",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.6.0",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "react": "^17.0.1",
+    "rollup": "^2.35.1",
+    "rollup-plugin-auto-external": "^2.0.0",
+    "rollup-plugin-bundle-size": "^1.0.3",
+    "rollup-plugin-copy": "^3.3.0"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
