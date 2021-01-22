@@ -13,7 +13,7 @@ export default {
   plugins: [
     babel({
       babelrc: false,
-      presets: [['@babel/preset-env', { loose: true }], '@babel/preset-react'],
+      presets: ['@babel/preset-env', '@babel/preset-react'],
     }),
     copy({
       targets: [{ src: 'typings/*', dest: 'build' }],
