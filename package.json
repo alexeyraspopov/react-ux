@@ -41,6 +41,11 @@
     "rollup-plugin-bundle-size": "^1.0.3",
     "rollup-plugin-copy": "^3.3.0"
   },
+  "browserslist": [
+    "last 1 Chrome version",
+    "last 1 Firefox version",
+    "last 1 Safari version"
+  ],
   "prettier": {
     "printWidth": 100,
     "singleQuote": true,
